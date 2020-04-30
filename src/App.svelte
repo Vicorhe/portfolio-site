@@ -32,13 +32,18 @@
       top: -12px;
       margin-left: -15%;
       border-top: 1px solid $primary;
-      box-shadow: 41px 27px 0 25px $background;
+      box-shadow: 41px 9px 0 9px $background;
       -webkit-transform: rotate(-1deg);
       -ms-transform: rotate(-1deg);
       transform: rotate(-1deg);
     }
     .page-content {
-      //background-color: $background;
+      .entries {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     }
   }
 
@@ -64,7 +69,13 @@
   </div>
   <div class="divider" />
   <div class="page-content">
-    <Entry/>
+    <div class="entries">
+      <Entry/>
+      <Entry/>
+      <Entry/>
+      <Entry/>
+    </div>
+    
   </div>
   
 </main>
