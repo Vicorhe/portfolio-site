@@ -7,6 +7,7 @@
     border: 1px solid $border;
     border-radius: 4px;
     margin-bottom: 20px;
+    //background-color: red;
     background-color: $foreground;
     display: flex;
     flex-direction: column;
