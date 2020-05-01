@@ -13,6 +13,7 @@
     align-items: center;
     img {
       margin-top: 30px;
+      height: 200px;
     }
     .divider {
       width: 90%;

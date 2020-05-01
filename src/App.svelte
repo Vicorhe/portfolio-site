@@ -1,5 +1,6 @@
 <script>
-  import Entry from './components/Entry.svelte';
+  import Entry from "./components/Entry.svelte";
+  import MailingList from "./components/MailingList.svelte";
   let name = "Victor He";
 </script>
 
@@ -70,12 +71,12 @@
   <div class="divider" />
   <div class="page-content">
     <div class="entries">
-      <Entry/>
-      <Entry/>
-      <Entry/>
-      <Entry/>
+      <Entry />
+      <Entry />
+      <Entry />
+      <Entry />
     </div>
-    
+
   </div>
-  
+  <MailingList />
 </main>
