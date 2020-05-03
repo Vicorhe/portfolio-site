@@ -1,13 +1,13 @@
 <style type="text/scss">
+  $primary: #006089;
   $border: #bcd6f1;
-  $foreground: rgba(228,238,245,.93);
+  $foreground: rgba(228, 238, 245, 0.93);
   .entry {
     min-width: 300px;
     padding: 20px;
     border: 1px solid $border;
     border-radius: 4px;
     margin-bottom: 20px;
-    //background-color: red;
     background-color: $foreground;
     display: flex;
     flex-direction: column;
@@ -23,17 +23,20 @@
     }
     h2 {
       margin: 0 0 10px;
-      color: rgb(99, 85, 66);
+      font-size: 2rem;
+      color: $primary;
     }
     p {
       margin: 0;
+      font-size: 1.25rem;
+      color: $primary;
     }
   }
 </style>
 
 <div class="entry">
-  <img src="assets/images/mock_product.svg" alt="Mock Product">
+  <img src="assets/images/mock_product.svg" alt="Mock Product" />
   <div class="divider" />
-  <h2>SaaS Templatekkkk</h2>
+  <h2>SaaS Template</h2>
   <p>Everything you need</p>
 </div>

@@ -11,7 +11,7 @@
     .page-hero {
       padding: 3rem 0 1rem;
       text-align: center;
-      background-color: #ffffff;
+      background-color: white;
       #nav {
         span {
           display: inline-block;
@@ -32,6 +32,7 @@
       position: relative;
       top: -12px;
       margin-left: -15%;
+      margin-bottom: 30px;
       border-top: 1px solid $primary;
       box-shadow: 41px 9px 0 9px $background;
       -webkit-transform: rotate(-1deg);
@@ -40,7 +41,7 @@
     }
     .page-content {
       .entries {
-        margin-top: 20px;
+        margin-bottom: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;

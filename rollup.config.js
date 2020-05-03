@@ -3,8 +3,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
-import { scss as sv_scss } from "svelte-preprocess";
-import scss from "rollup-plugin-scss";
+import { scss } from "svelte-preprocess";
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -17,16 +16,8 @@ export default {
     file: "public/build/bundle.js",
   },
   plugins: [
-    scss({
-      includePaths: ["./src/scss"],
-      output: "public/global.css",
-    }),
     svelte({
-      preprocess: [
-        sv_scss({
-          /* scss options */
-        }),
-      ],
+      preprocess: [scss({})],
       // enable run-time checks when not in production
       dev: !production,
       // we'll extract any component CSS out into
