@@ -1,6 +1,7 @@
 <script>
   import Entry from "./components/Entry.svelte";
   import MailingList from "./components/MailingList.svelte";
+  import Footer from "./components/Footer.svelte";
   let name = "Victor He";
 </script>
 
@@ -80,4 +81,5 @@
 
   </div>
   <MailingList />
+  <Footer />
 </main>
