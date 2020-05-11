@@ -1,11 +1,10 @@
 <script>
   import Entry from "../components/Entry.svelte";
   import MailingList from "../components/MailingList.svelte";
-  import Footer from "../components/Footer.svelte";
 </script>
 
 <style type="text/scss">
-  main {
+  .projects {
     .page-content {
       .entries {
         margin-bottom: 30px;
@@ -23,7 +22,7 @@
   }
 </style>
 
-<main>
+<main class="projects">
   <div class="page-content">
     <div class="entries">
       <Entry />
@@ -34,5 +33,4 @@
 
   </div>
   <MailingList />
-  <Footer />
 </main>
