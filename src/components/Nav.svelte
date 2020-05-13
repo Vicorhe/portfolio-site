@@ -15,6 +15,18 @@
       }
     }
   }
+  @media screen and (min-width: 991px) {
+    #nav {
+      padding-bottom: 1rem;
+      padding-right: 2rem;
+      display: flex;
+      justify-content: flex-end;
+      font-size: 1.25rem;
+      span {
+        padding: 0 9px;
+      }
+    }
+  }
 </style>
 
 <div id="nav">

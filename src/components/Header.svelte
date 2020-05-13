@@ -13,6 +13,15 @@
       font-size: 2.75rem;
       font-weight: 700;
       font-family: Roboto, sans-serif;
+      a {
+        text-decoration: none;
+        &:visited {
+          color: unset;
+        }
+        &:hover {
+          color: $highlight;
+        }
+      }
     }
   }
   .divider {
@@ -26,10 +35,22 @@
     -ms-transform: rotate(-1deg);
     transform: rotate(-1deg);
   }
+  @media screen and (min-width: 991px) {
+    .page-hero {
+      padding-top: 2rem;
+      padding-bottom: 5rem;
+      h1 {
+        font-size: 6rem;
+      }
+    }
+    .divider {
+      box-shadow: 41px 19px 0 20px #f1f4f6;
+    }
+  }
 </style>
 
 <div class="page-hero">
   <Nav />
-  <h1>Victor He</h1>
+  <h1><a href="/">Victor He</a></h1>
 </div>
 <div class="divider" />

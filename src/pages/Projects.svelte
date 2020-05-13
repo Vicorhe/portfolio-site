@@ -14,10 +14,9 @@
       }
     }
   }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
+  @media screen and (max-width: 991px) {
+    .projects {
+      
     }
   }
 </style>
