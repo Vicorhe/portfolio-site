@@ -1,7 +1,5 @@
 <style type="text/scss">
-  $primary: #006089;
-  $border: #bcd6f1;
-  $foreground: rgba(228, 238, 245, 0.93);
+  @import "../styles/color_pallete";
   .entry {
     min-width: 300px;
     padding: 20px;

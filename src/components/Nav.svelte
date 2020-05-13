@@ -3,7 +3,7 @@
 </script>
 
 <style type="text/scss">
-$primary: #006089;
+  @import "../styles/color_pallete";
   #nav {
     span {
       display: inline-block;

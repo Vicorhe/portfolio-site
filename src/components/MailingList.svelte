@@ -1,6 +1,5 @@
 <style type="text/scss">
-  $primary: #006089;
-  $highlight: #E1FFEA;
+  @import "../styles/color_pallete";
   .mailing-list {
     text-align: center;
     margin-bottom: 30px;
@@ -33,7 +32,7 @@
 <div class="mailing-list">
   <h1>New posts</h1>
   <div class="input-row">
-    <input type="email" id="email" placeholder="Enter your email"/>
+    <input type="email" id="email" placeholder="Enter your email" />
     <input type="submit" value="Go" id="submit" />
   </div>
 </div>

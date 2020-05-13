@@ -3,8 +3,7 @@
 </script>
 
 <style type="text/scss">
-  $primary: #006089;
-  $background: #f1f4f6;
+  @import "../styles/color_pallete";
   .page-hero {
     padding: 3rem 0 1rem;
     text-align: center;
