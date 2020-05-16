@@ -27,6 +27,34 @@
       }
     }
   }
+  @media screen and (min-width: 991px) {
+    .mailing-list {
+      text-align: left;
+      float: left;
+      h1 {
+        font-size: 2.25rem;
+      }
+      .input-row {
+        max-width: 300px;
+        margin: 0;
+        input {
+          display: inline-block;
+          padding: 0.8rem;
+          font-size: 1.25rem;
+          &#email {
+            width: 230px;
+            margin-right: 0;
+          }
+          &#submit {
+            width: 50px;
+            color: $primary;
+            font-weight: bold;
+            background-color: $highlight;
+          }
+        }
+      }
+    }
+  }
 </style>
 
 <div class="mailing-list">

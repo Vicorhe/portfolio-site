@@ -1,3 +1,8 @@
+<script>
+  import Header from "../components/Header.svelte";
+  import Footer from "../components/Footer.svelte";
+</script>
+
 <style type="text/scss">
   @import "../styles/color_pallete";
   .about {
@@ -28,6 +33,7 @@
   }
 </style>
 
+<Header />
 <main class="about">
   <div class="headshot-container">
     <img id="headshot" src="assets/images/headshotTemp.jpg" alt="" />
@@ -50,3 +56,4 @@
   <p>Software Engineer @ LA.</p>
   <p>UC San Diego @ 2018</p>
 </main>
+<Footer />

@@ -10,6 +10,20 @@
       }
     }
   }
+  @media screen and (min-width: 991px) {
+    .footer {
+      float: right;
+      margin-top: 15px;
+      margin-bottom: 0;
+      .contact {
+        text-align: right;
+        img {
+          width: 35px;
+          margin: 2px;
+        }
+      }
+    }
+  }
 </style>
 
 <div class="footer">

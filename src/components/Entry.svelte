@@ -1,18 +1,20 @@
 <style type="text/scss">
   @import "../styles/color_pallete";
   .entry {
-    min-width: 300px;
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 330px;
     padding: 20px;
     border: 1px solid $border;
     border-radius: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     background-color: $foreground;
     display: flex;
     flex-direction: column;
     align-items: center;
     img {
       margin-top: 30px;
-      height: 200px;
+      height: 75%;
     }
     .divider {
       width: 90%;
@@ -28,6 +30,24 @@
       margin: 0;
       font-size: 1.25rem;
       color: $primary;
+    }
+  }
+
+  @media screen and (min-width: 991px) {
+    .entry {
+      width: 230px;
+      padding: 20px;
+      margin-bottom: 0;
+      img {
+        margin-top: 10px;
+        height: 100px;
+      }
+      .divider {
+      }
+      h2 {
+      }
+      p {
+      }
     }
   }
 </style>

@@ -1,6 +1,8 @@
 <script>
+  import Header from "../components/Header.svelte";
   import Entry from "../components/Entry.svelte";
   import MailingList from "../components/MailingList.svelte";
+  import Footer from "../components/Footer.svelte";
 </script>
 
 <style type="text/scss">
@@ -22,14 +24,9 @@
       }
     }
   }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  }
 </style>
 
+<Header />
 <main class="blog-posts">
   <div class="page-content">
     <p class="sub-header">Just some notes</p>
@@ -42,4 +39,5 @@
 
   </div>
   <MailingList />
+  <Footer />
 </main>

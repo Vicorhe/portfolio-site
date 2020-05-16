@@ -1,5 +1,7 @@
 <script>
   import Nav from "./Nav.svelte";
+  import { location } from "svelte-spa-router";
+  export let home;
 </script>
 
 <style type="text/scss">
@@ -8,6 +10,9 @@
     padding: 3rem 0 1rem;
     text-align: center;
     background-color: white;
+    .sub-header {
+      display: none;
+    }
     h1 {
       color: $primary;
       font-size: 2.75rem;
@@ -30,7 +35,7 @@
     margin-left: -15%;
     margin-bottom: 30px;
     border-top: 1px solid $primary;
-    box-shadow: 41px 9px 0 9px $background;
+    box-shadow: 41px 16px 0 15px $background;
     -webkit-transform: rotate(-1deg);
     -ms-transform: rotate(-1deg);
     transform: rotate(-1deg);
@@ -38,9 +43,22 @@
   @media screen and (min-width: 991px) {
     .page-hero {
       padding-top: 2rem;
-      padding-bottom: 5rem;
+      padding-bottom: 3rem;
+      .sub-header {
+        display: block;
+        font-size: 1.5rem;
+        font-family: Garamound, serif;
+        font-style: italic;
+        font-weight: normal;
+        color: #555;
+        text-align: center;
+      }
       h1 {
+        margin-top: 1rem;
         font-size: 6rem;
+      }
+      .gap {
+        height: 106px;
       }
     }
     .divider {
@@ -51,6 +69,15 @@
 
 <div class="page-hero">
   <Nav />
-  <h1><a href="/">Victor He</a></h1>
+  {#if home}
+    <h2 class="sub-header">My work</h2>
+  {/if}
+  <h1>
+    <a href="/">Victor He</a>
+  </h1>
+  {#if home}
+    <div class="gap" />
+  {/if}
 </div>
+
 <div class="divider" />
