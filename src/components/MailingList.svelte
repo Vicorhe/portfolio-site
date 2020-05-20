@@ -12,8 +12,8 @@
       margin: auto;
       input {
         display: inline-block;
-        padding: 0.8rem;
-        font-size: 1.25rem;
+        padding: 0.8em;
+        font-size: 1.25em;
         &#email {
           width: 230px;
           margin-right: 7px;
@@ -32,15 +32,15 @@
       text-align: left;
       float: left;
       h1 {
-        font-size: 2.25rem;
+        font-size: 2.25em;
       }
       .input-row {
         max-width: 300px;
         margin: 0;
         input {
           display: inline-block;
-          padding: 0.8rem;
-          font-size: 1.25rem;
+          padding: 0.8em;
+          font-size: 1.25em;
           &#email {
             width: 230px;
             margin-right: 0;

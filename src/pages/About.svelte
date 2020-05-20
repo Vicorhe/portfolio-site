@@ -18,7 +18,7 @@
 
     h1 {
       margin-top: 30px;
-      font-size: 1.75rem;
+      font-size: 1.75em;
       color: $primary;
     }
 
@@ -27,8 +27,17 @@
     }
 
     p {
-      font-size: 1.25rem;
+      font-size: 1.25em;
       color: $primary;
+    }
+  }
+  @media screen and (min-width: 991px) {
+    .about {
+      max-width: 400px;
+      margin: 0 auto 120px;
+      p {
+        margin-bottom: 0;
+      }
     }
   }
 </style>
@@ -41,19 +50,12 @@
 
   <h1>What is the Point of this Site?</h1>
   <div class="divider" />
-  <p>Practice.</p>
-  <p>Everytime I try to attach a constructive motive, I talk myself out.</p>
-  <p>Build an audience? Promote a business? Showcase my work? Get clients?</p>
-  <p>
-    Sounds awesome, but to get it rolling will require more effort than I can
-    currently expend.
-  </p>
-  <p>Maybe I can help someone build something useful at a later point.</p>
-  <p>Until then, I need as much practice as possible.</p>
+  <p>Share some free neat things.</p>
+  <p>Reach out to suggest projects.</p>
   <h1>Me</h1>
   <div class="divider" />
 
   <p>Software Engineer @ LA.</p>
   <p>UC San Diego @ 2018</p>
+  <Footer />
 </main>
-<Footer />

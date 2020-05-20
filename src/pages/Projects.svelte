@@ -1,6 +1,6 @@
 <script>
   import Header from "../components/Header.svelte";
-  import Entry from "../components/Entry.svelte";
+  import ProjectEntry from "../components/ProjectEntry.svelte";
   import MailingList from "../components/MailingList.svelte";
   import Footer from "../components/Footer.svelte";
 </script>
@@ -39,10 +39,10 @@
 <main class="projects">
   <div class="page-content">
     <div class="entries">
-      <Entry />
-      <Entry />
-      <Entry />
-      <Entry />
+      <ProjectEntry />
+      <ProjectEntry />
+      <ProjectEntry />
+      <ProjectEntry />
     </div>
     <MailingList />
     <Footer />

@@ -1,6 +1,6 @@
 <script>
   import Header from "../components/Header.svelte";
-  import Entry from "../components/Entry.svelte";
+  import BlogEntry from "../components/BlogEntry.svelte";
   import MailingList from "../components/MailingList.svelte";
   import Footer from "../components/Footer.svelte";
 </script>
@@ -9,7 +9,7 @@
   .blog-posts {
     .page-content {
       .sub-header {
-        font-size: 1.5rem;
+        font-size: 1.5em;
         font-family: Garamound, serif;
         font-style: italic;
         color: #555;
@@ -24,6 +24,19 @@
       }
     }
   }
+  @media screen and (min-width: 991px) {
+    .blog-posts {
+      width: 645px;
+      margin: auto;
+      .page-content {
+        .entries {
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
 </style>
 
 <Header />
@@ -31,10 +44,10 @@
   <div class="page-content">
     <p class="sub-header">Just some notes</p>
     <div class="entries">
-      <Entry />
-      <Entry />
-      <Entry />
-      <Entry />
+      <BlogEntry />
+      <BlogEntry />
+      <BlogEntry />
+      <BlogEntry />
     </div>
 
   </div>

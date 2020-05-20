@@ -7,7 +7,7 @@
 <style type="text/scss">
   @import "../styles/color_pallete";
   .page-hero {
-    padding: 3rem 0 1rem;
+    padding: 3em 0 1em;
     text-align: center;
     background-color: white;
     .sub-header {
@@ -15,7 +15,7 @@
     }
     h1 {
       color: $primary;
-      font-size: 2.75rem;
+      font-size: 2.75em;
       font-weight: 700;
       font-family: Roboto, sans-serif;
       a {
@@ -42,11 +42,11 @@
   }
   @media screen and (min-width: 991px) {
     .page-hero {
-      padding-top: 2rem;
-      padding-bottom: 3rem;
+      padding-top: 2em;
+      padding-bottom: 3em;
       .sub-header {
         display: block;
-        font-size: 1.5rem;
+        font-size: 1.5em;
         font-family: Garamound, serif;
         font-style: italic;
         font-weight: normal;
@@ -54,8 +54,8 @@
         text-align: center;
       }
       h1 {
-        margin-top: 1rem;
-        font-size: 6rem;
+        margin-top: 0;
+        font-size: 6em;
       }
       .gap {
         height: 106px;

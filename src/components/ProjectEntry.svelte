@@ -23,12 +23,12 @@
     }
     h2 {
       margin: 0 0 10px;
-      font-size: 2rem;
+      font-size: 2em;
       color: $primary;
     }
     p {
       margin: 0;
-      font-size: 1.25rem;
+      font-size: 1.25em;
       color: $primary;
     }
   }

@@ -17,11 +17,11 @@
   }
   @media screen and (min-width: 991px) {
     #nav {
-      padding-bottom: 1rem;
-      padding-right: 2rem;
+      padding-bottom: 1em;
+      padding-right: 2em;
       display: flex;
       justify-content: flex-end;
-      font-size: 1.25rem;
+      font-size: 1.25em;
       span {
         padding: 0 9px;
       }
